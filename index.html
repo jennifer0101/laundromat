@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Washed Up Laundromat</title>
     <!-- Link to CSS reset sheet-->
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Link to CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Link to Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -21,11 +21,13 @@
 
 <body>
     <header>
+        <!--dropdown menu-->
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="selveserve.html">Self Service Laundry</a></li>
+            <li><a href="selfserve.html">Self Service Laundry</a></li>
             <li><a href="washfold.html">Wash and Fold Service</a></li>
             <li><a href="comfort.html">Safe, Comfortable, Convenient</a></li>
         </ul>
+        <!--navbar-->
         <nav class="green lighten-3">
             <div class="nav-wrapper">
                 <div class="container">
@@ -42,20 +44,29 @@
         </nav>
     </header>
 
-
-    <!--Parallax effect second photo-->
-    <div class="parallax-container z-depth-1" style="height: 250px;">
-        <div class="parallax"><img src="assets/images/laundry02.jpg"></div>
-    </div>
-    <div class="section white">
-        <div class="row container">
-          <h2 class="header">Parallax</h2>
-          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <div class="container">
+        <div class="row">
+            <!--Parallax effect-->
+            <div class="parallax-container z-depth-1" style="height: 600px; margin-top: 75px;">
+                <div class="parallax"><img src="assets/images/laundry02.jpg"></div>
+            </div>
         </div>
-      </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/laundry01.jpg"></div>
-      </div>
+
+
+        <div class="row teal darken-4"  id="tagline">
+            <h6>Family owned business that offers their customers the lowest prices in the area, every day of the week!</h6>
+         
+            <h6>Todo lavado lavandería.
+            ¡Empresa familiar que ofrece a sus clientes los precios más bajos de la zona, todos los días de la semana!</h6>
+     
+            <h6>Txhua Daim Ntawv Qhia Txog Khaub Ncaws Khaub Ncaws. Tsev neeg muaj kev lag luam uas muab lawv cov neeg siv
+            cov nqi qis tshaj hauv thaj chaw, txhua hnub ntawm lub lim tiam!</h6>
+         
+            <h6>Tất cả được giặt lên Laundromat. Doanh nghiệp thuộc sở hữu gia đình cung cấp cho khách hàng của họ giá thấp
+            nhất trong khu vực, mỗi ngày trong tuần!</h6>
+
+        </div>
+    </div>
 
 
     <footer>
