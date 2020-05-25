@@ -12,32 +12,57 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Link to Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="selveserve.html">Self Service Laundry</a></li>
+            <li><a href="washfold.html">Wash and Fold Service</a></li>
+            <li><a href="comfort.html">Safe, Comfortable, Convenient</a></li>
+        </ul>
+        <nav class="green lighten-3">
             <div class="nav-wrapper">
-              <a href="#" class="brand-logo">Logo</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="coinop.html">Coin Operated</a></li>
-                <li><a href="washfold.html">Wash and </a></li>
-                <li><a href="comfort.html">JavaScript</a></li>
-              </ul>
+                <div class="container">
+                    <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo">All Washed Up
+                        Laundromat</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Services<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="hours.html">Hours and Location</a></li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <section>
-    </section>
 
-    <footer>  
-        <!-- Link to JQuery-->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Link to JavaScript File-->
-        <script src="folder/folder/file.js"></script>
+
+    <div class="container">
+    <div class="row">
+        <!--Parallax effect first photo-->
+        <div class="parallax-container z-depth-1">
+            <div class="parallax"><img src="assets/images/laundry02.jpg"></div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <footer>
     </footer>
+
+    <!--Javascript file-->
+    <script src="assets/javascript/logic.js"></script>
+
 </body>
 
 </html>
