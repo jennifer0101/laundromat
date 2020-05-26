@@ -2,16 +2,61 @@
  /* font-family: 'Nunito', sans-serif;
 font-family: 'PT Sans', sans-serif; */
 
-/* nav {
-    margin-bottom: 200px !important;
-} */
-
 #tagline {
-   font-family: 'PT Sans', sans-serif;
-
+    font-family: 'PT Sans', sans-serif;
+    color:#696969;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
 }
 
 .brand-logo {
     font-family: 'PT Sans', sans-serif;
 }
 
+.parallax-container {
+    margin-top: 75px;
+    margin-bottom:0px;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    color: #696969;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+   
+}
+
+
+
+.subtitle {
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.large {
+    color:#a5d6a7;
+}
+
+#service-icons {
+    font-family: 'PT Sans', sans-serif;
+    color:#696969;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+ 
+.info-text {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    margin: 
+}
+
+.icon-block {
+    padding: 0 25px;
+}
