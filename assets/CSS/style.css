@@ -2,35 +2,63 @@
  /* font-family: 'Nunito', sans-serif;
 font-family: 'PT Sans', sans-serif; */
 
-#tagline {
-    font-family: 'PT Sans', sans-serif;
-    color:#696969;
-    font-size: 18px;
-    text-align: center;
-    font-style: italic;
-    margin-top: 50px;
-}
 
 .brand-logo {
     font-family: 'PT Sans', sans-serif;
 }
 
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #304336 !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul a {
+    font-family: 'Nunito', sans-serif;
+}
+
 .parallax-container {
-    margin-top: 75px;
-    margin-bottom:0px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#tagline {
+    font-family: 'PT Sans', sans-serif;
+    color:#304336;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 100px;
 }
 
 .title {
     font-family: 'Nunito', sans-serif;
-    color: #696969;
+    color: #304336;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin: 100px 0px 50px 0px;
-   
+    margin: 100px 0px 0px 0px;  
 }
 
+.line1{
+    height: 1px;
+    border-color: #304336;
+    background-color: #304336;
+    width: 180px; 
+}
 
+.line2{
+    height: 1px;
+    border-color: #304336;
+    background-color: #304336;
+    width: 210px; 
+}
+
+.line3{
+    height: 1px;
+    border-color: #304336;
+    background-color: #304336;
+    width: 430px; 
+}
 
 .subtitle {
     margin-top: 20px;
@@ -43,20 +71,45 @@ font-family: 'PT Sans', sans-serif; */
     color:#a5d6a7;
 }
 
-#service-icons {
+.service-icons {
     font-family: 'PT Sans', sans-serif;
-    color:#696969;
+    color:#304336;
     font-size: 18px;
     text-align: center;
     font-weight: bolder;
-}
- 
-.info-text {
-    font-family: 'PT Sans', sans-serif;
-    text-align: left;
-    margin: 
+    margin-top: 60px;
+    margin-bottom: 200px;
 }
 
 .icon-block {
     padding: 0 25px;
 }
+
+.info-text {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    color:#304336;
+    font-size: 18px;
+}
+
+.about-info {
+    margin-bottom: 200px;
+}
+
+.hours {
+    text-align: center;
+    background-color: #a5d6a7;
+    padding-top: 100px;
+    height: 450px;
+  
+   
+}
+
+.map {
+    width: 600px;
+}
+
+.hours-loc {
+    margin-top: 60px;
+}
+ 
