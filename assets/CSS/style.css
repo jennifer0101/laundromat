@@ -48,6 +48,7 @@ nav ul a {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
+    color:#5d645c;
 }
 
 .large {
@@ -66,7 +67,7 @@ nav ul a {
     padding: 0 25px;
 }
 
-i:hover {
+.icon-link:hover {
     color:#304336;
 }
 
@@ -104,4 +105,89 @@ i:hover {
     text-align: center;
     padding: 15px;
     font-size: 18px;
+    margin-top: 100px;
+}
+
+/* self serve page */
+#hours-prices {
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 0px 40px 0px;
+}
+
+#coin-icon {
+    text-align: center;
+}
+
+
+#selfserve-text {
+   padding-top: 50px;
+   line-height: 2;
+}
+
+/* wash and fold page */
+#fold-intro {
+    text-align: justify;
+    font-size: 30px;
+    line-height: 1.25;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#bubbles-icon {
+    text-align: center;
+}
+
+#fold-rates {
+    text-align: center;
+}
+
+#folded-clothes {
+    border-radius: 8px;
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    transform: translate (-50%, -50%);
+    color:#304336;
+    font-size: 30px;
+}
+
+/* hours page */
+#hours-text {
+    padding-top: 10px;
+    margin-bottom: 300px;
+}
+
+/* pages */
+.pages-parallax {
+    height: 500px;
+    margin-bottom: 0px;
+}
+
+.pages-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.pages-sub {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.icon-nolink:hover {
+    color:  #a5d6a7;
 }
