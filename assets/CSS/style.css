@@ -108,6 +108,7 @@ nav ul a {
     margin-top: 100px;
 }
 
+
 /* self serve page */
 #hours-prices {
     text-align: center;
@@ -118,7 +119,6 @@ nav ul a {
 #coin-icon {
     text-align: center;
 }
-
 
 #selfserve-text {
    padding-top: 50px;
@@ -138,37 +138,55 @@ nav ul a {
     text-align: center;
 }
 
-#fold-rates {
-    text-align: center;
-}
-
 #folded-clothes {
-    border-radius: 8px;
-    opacity: 0.5;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    margin-top: 20px;
 }
 
-.image-container {
-    position: relative;
+#fold-rates {
     text-align: center;
+    color: white;
 }
 
-.centered {
-    position: absolute;
-    top: 20%;
-    left: 22%;
-    transform: translate (-50%, -50%);
-    color:#304336;
-    font-size: 30px;
+#rates-white {
+    color: white;
+}
+
+#fold-hours {
+    padding-left: 70px;
+}
+
+.fold-container {
+    background-color: #a5d6a7;
+    padding: 10px 20px;
+    height: 500px;
+}
+
+.rates-container {
+    background-color: #304336;
+    padding: 10px 20px;
+    height: 500px;
+}
+
+#clock {
+    color: #304336;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
 }
 
 /* hours page */
 #hours-text {
     padding-top: 10px;
     margin-bottom: 300px;
+}
+
+/* safe and convenient page */
+#comfort-icon {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* pages */
@@ -186,8 +204,4 @@ nav ul a {
     font-size: 30px;
     margin-bottom: 30px;
     margin-top: 50px;
-}
-
-.icon-nolink:hover {
-    color:  #a5d6a7;
 }
