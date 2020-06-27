@@ -93,7 +93,6 @@ nav ul a {
     margin-top: 60px;
 }
  
-
 .about-info {
     margin-bottom: 200px;
 }
@@ -186,6 +185,36 @@ nav ul a {
 #comfort-icon {
     text-align: center;
     padding-bottom: 50px;
+}
+
+/* about page */
+#family {
+    float: left;
+    margin: 0px 25px 0px 0px;
+    width: 50%;
+}
+
+#fam-wrap {
+    clear: both;
+}
+
+#sf-sweep {
+    float: right;
+    margin: 50px 0px 50px 25px;
+    width: 35%;
+}
+
+#sf-collage {
+    width: 100%;
+   
+}
+
+h5 {
+    text-align: center;
+}
+
+#steve-wrap {
+    clear: both;
 }
 
 /* pages */
