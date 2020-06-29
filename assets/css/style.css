@@ -106,6 +106,9 @@ nav ul a {
     margin-top: 100px;
 }
 
+.sidenav-trigger {
+    color: white;
+}
 
 /* self serve page */
 #hours-prices {
@@ -209,10 +212,6 @@ nav ul a {
     margin: 25px 0px 50px 0px;
 }
 
-h5 {
-    text-align: center;
-}
-
 #steve-wrap {
     clear: both;
 }
@@ -233,3 +232,12 @@ h5 {
     margin-bottom: 30px;
     margin-top: 50px;
 }
+
+
+/* Media queries */
+@media only screen and (max-width: 1089px) {
+    .brand-logo {
+        font-size: 25px !important;
+    }
+  }
+
