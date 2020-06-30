@@ -269,5 +269,9 @@ nav ul a {
     .icon-block {
         margin-bottom: 50px;
     }
+
+    #selfserve-text {
+        padding-top: 20px;
+    }
 }
 
