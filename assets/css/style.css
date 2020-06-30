@@ -273,5 +273,14 @@ nav ul a {
     #selfserve-text {
         padding-top: 20px;
     }
+
+    .fold-container {
+        margin-bottom: 25px;
+    }
+
+    #folded-clothes {
+        width: 40%;
+        margin-top: 15px;
+    }
 }
 
