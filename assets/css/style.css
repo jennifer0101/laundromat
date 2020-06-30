@@ -80,12 +80,12 @@ nav ul a {
     background-color: #a5d6a7;
     padding-top: 20px;
     height: 450px;
+    width: 100%;
     font-size: 18px;
     line-height: 1.25;
 }
 
 .map {
-    width: 600px;
     text-align: center;
 }
 
@@ -235,9 +235,35 @@ nav ul a {
 
 
 /* Media queries */
+@media only screen and (max-width: 1125px) {
+    .hours {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 1089px) {
     .brand-logo {
         font-size: 25px !important;
     }
-  }
+}
+
+@media only screen and (max-width: 992px) {
+    .hours {
+        font-size: 18px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hours-text {
+        margin-bottom: 25px;
+    }
+    
+    .map {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
