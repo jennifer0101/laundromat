@@ -157,7 +157,12 @@ nav ul a {
 }
 
 #fold-hours {
-    padding-left: 70px;
+   display: inline-block;
+   text-align: left;
+}
+
+#center-fold {
+    text-align: center;
 }
 
 .fold-container {
@@ -193,7 +198,7 @@ nav ul a {
 /* about page */
 #family {
     float: left;
-    margin: 0px 25px 0px 0px;
+    margin: 0px 25px 10px 0px;
     width: 50%;
 }
 
@@ -203,7 +208,7 @@ nav ul a {
 
 #sf-sweep {
     float: right;
-    margin: 70px 0px 50px 25px;
+    margin: 0px 0px 50px 25px;
     width: 35%;
 }
 
@@ -279,16 +284,23 @@ nav ul a {
     }
 
     #folded-clothes {
-        width: 40%;
+        width: 300px;
         margin-top: 15px;
     }
 
     #family {
-        width: 70%;
+        clear: both;
+        width: 100%;
     }
 
     #sf-sweep {
-        width: 50%;
+        clear: both;
+        width: 100%;
+        margin: 15px 0px 15px 25px;
+    }
+
+    .title {
+        font-size: 45px;
     }
 }
 
@@ -302,11 +314,21 @@ nav ul a {
     .brand-logo {
         font-size: 16px !important;
     }
+
+    .title {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 402px) {
     .brand-logo {
         font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #folded-clothes {
+        width: 200px;
     }
 }
 
