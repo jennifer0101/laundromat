@@ -225,6 +225,11 @@ nav ul a {
     clear: both;
 }
 
+/* card page */
+#card-icon {
+    text-align: center;
+}
+
 /* pages */
 .pages-parallax {
     height: 500px;
