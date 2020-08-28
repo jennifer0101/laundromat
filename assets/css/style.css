@@ -249,15 +249,27 @@ nav ul a {
 
 
 /* Media queries */
+@media only screen and (max-width: 1278px) {
+    .brand-logo {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .brand-logo {
+        font-size: 20px !important;
+    }
+}
+
 @media only screen and (max-width: 1125px) {
     .hours {
         font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 1089px) {
+@media only screen and (max-width: 1064px) {
     .brand-logo {
-        font-size: 25px !important;
+        font-size: 16px !important;
     }
 }
 
