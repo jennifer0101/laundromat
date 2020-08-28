@@ -341,6 +341,12 @@ nav ul a {
     }
 }
 
+@media only screen and (max-width: 422px) {
+    .fold-container {
+        height: 550px;
+    }
+}
+
 @media only screen and (max-width: 402px) {
     .brand-logo {
         font-size: 12px !important;
