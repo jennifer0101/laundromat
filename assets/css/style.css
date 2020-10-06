@@ -123,14 +123,11 @@ nav ul a {
 
 #selfserve-text {
    padding-top: 50px;
-   line-height: 2;
 }
 
 /* wash and fold page */
 #fold-intro {
     text-align: justify;
-    font-size: 30px;
-    line-height: 1.25;
     margin-top: 20px;
     margin-bottom: 15px;
 }
