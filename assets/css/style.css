@@ -317,16 +317,6 @@ nav ul a {
     .title {
         font-size: 45px;
     }
-
-    .parallax-container {
-        margin-top: 40px;
-        margin-bottom: 0px;
-        height: 300px !important
-    }
-
-    .title {
-        margin: 30px 0 0 0;
-    }
 }
 
 @media only screen and (max-width: 628px) {
