@@ -11,5 +11,6 @@ All Washed Up Laundromat is a website that provides information about a local la
 ## Built With 
 
 * JQuery
-* CSS
+* CSS3
+* HTML5
 * Materialize
