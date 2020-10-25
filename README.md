@@ -1,6 +1,6 @@
 # All Washed Up Laundromat
 
-[All Washed Up Laundromat](https://jennifer0101.github.io/laundromat/) a mobile responsive website with a focus on the user experience and interface. 
+[All Washed Up Laundromat](https://jennifer0101.github.io/laundromat/) is a mobile responsive website with a focus on the user experience and interface. 
 
 ## Description
 
