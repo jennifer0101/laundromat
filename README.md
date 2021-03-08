@@ -15,7 +15,7 @@
 
 ## Project Status
 
-This project is finished. It is currently launched and in use. [www.allwasheduplaundromat.com](https://www.allwashedupmaplewood.com)
+This project is finished. It is currently launched and in use. [www.allwashedupmaplewood.com](https://www.allwashedupmaplewood.com)
 
 ## Contact
 Created by [@jennifer0101](https://www.fayecreative.com) - feel free to contact me!
