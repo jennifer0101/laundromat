@@ -1,16 +1,23 @@
 # All Washed Up Laundromat
 
-[All Washed Up Laundromat](https://jennifer0101.github.io/laundromat/) is a mobile responsive website with a focus on the user experience and interface. 
+## General Info
 
-## Description
+[All Washed Up Laundromat](https://jennifer0101.github.io/laundromat/) is a website that was created to provide information about a local laundromat and wash and fold service to the public. The website is designed with a focus on user experience and user interface and is fully mobile responsive.  
 
-![](assets/images/laundry.jpg)
+![](assets/images/Screen_Options.jpg)
 
-All Washed Up Laundromat is a website that provides information about a local laundromat to the public. The website is designed with a focus on user experience and user interface. It is fully mobile responsive.  
-
-## Built With 
+## Technologies
 
 * JQuery
 * CSS3
 * HTML5
-* Materialize
+* Materialize 1.0.0
+
+## Set Up
+
+## Project Status
+
+This project is complete and has been lunched and is currently in use. [www.allwasheduplaundromat.com](https://www.allwasheduplaundromat.com)
+
+## Contact
+Created by [@jennifer0101](https://www.fayecreative.com) - feel free to contact me!
