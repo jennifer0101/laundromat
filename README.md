@@ -13,8 +13,6 @@
 * HTML5
 * Materialize 1.0.0
 
-## Set Up
-
 ## Project Status
 
 This project is complete and has been lunched and is currently in use. [www.allwasheduplaundromat.com](https://www.allwasheduplaundromat.com)
