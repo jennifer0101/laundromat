@@ -156,6 +156,7 @@ nav ul a {
 #fold-hours {
    display: inline-block;
    text-align: left;
+   padding-top: 5%;
 }
 
 #center-fold {
