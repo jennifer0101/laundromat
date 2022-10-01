@@ -110,6 +110,10 @@ nav ul a {
     color: white;
 }
 
+.sidenav-list {
+    margin-top: 100px;
+}
+
 /* self serve page */
 #hours-prices {
     text-align: center;
@@ -170,7 +174,7 @@ nav ul a {
 }
 
 .rates-container {
-    background-color: #304336;
+    background-color: #386144;
     padding: 10px 20px;
     height: 500px;
 }
