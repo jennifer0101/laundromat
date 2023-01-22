@@ -8,22 +8,37 @@ body {
 }
 
 .brand-logo {
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
     color: #304336 !important;
     font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
 }
 
 nav ul a {
     font-family: 'Nunito', sans-serif;
 }
 
-.parallax-container {
+nav ul li a {
+    color: #39393b;
+    font-size: 1em;
+    margin-top: 70px;
+}
+
+nav.white {
+    height:200px !important;
+}
+
+
+/* .parallax-container {
     margin-top: 60px;
     margin-bottom: 50px;
-}
+} */
 
 #tagline {
     color:#304336;
@@ -244,7 +259,6 @@ nav ul a {
     margin-bottom: 30px;
     margin-top: 50px;
 }
-
 
 /* Media queries */
 
