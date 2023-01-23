@@ -7,62 +7,70 @@ body {
     line-height: 1.5;
 }
 
-.brand-logo {
-    /* font-family: 'PT Sans', sans-serif; */
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
 }
 
-.dropdown-content li > a, .dropdown-content li > span {
-    color: #304336 !important;
-    font-family: 'Nunito', sans-serif;
-    margin-top: 0px;
+h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
 }
 
 nav ul a {
     font-family: 'Nunito', sans-serif;
+    font-weight: 800;
 }
 
 nav ul li a {
-    color: #39393b;
-    font-size: 1em;
-    margin-top: 70px;
+    color: #333333;
+    font-size: 1.1em;
+}
+
+#nav-mobile {
+    margin-top: 51px;
 }
 
 nav.white {
-    height:200px !important;
+    height: 175px !important;
 }
 
+.brand-logo {
+    padding-top: 50px !important;
+    padding-left: 25px !important;
+}
 
-/* .parallax-container {
-    margin-top: 60px;
-    margin-bottom: 50px;
-} */
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #333333 !important;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
+    font-size: 1em !important;
+    font-weight: 800;
+}
 
-#tagline {
-    color:#304336;
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 100px;
+.sidenav-trigger {
+    color: #333333;
+    margin-top: 85px !important;
+}
+
+.sidenav-list {
+    margin-top: 100px;
 }
 
 .title {
     font-family: 'Nunito', sans-serif;
-    color: #304336;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     margin: 100px 0px 0px 0px;  
+    color: #333333;
 }
 
 .subtitle {
     font-family: 'Nunito', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
-    color:#5d645c;
+    color:#333333;
 }
 
 .large {
@@ -70,7 +78,6 @@ nav.white {
 }
 
 .service-icons {
-    color:#304336;
     text-align: center;
     font-weight: bolder;
     margin-top: 60px;
@@ -82,26 +89,36 @@ nav.white {
 }
 
 .icon-link:hover {
-    color:#5d645c;
+    color:#4879b6;
 }
 
 .info-text {
     text-align: left;
-    color:#304336;
+    color:#333333;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.card {
+    text-align: center !important;
+    background-color: #e8f5e9 !important;
+    border-radius: 20px !important;
 }
 
 .hours {
     text-align: center;
-    background-color: #a5d6a7;
+    background-color: #e8f5e9 ;
     padding-top: 20px;
     height: 450px;
     width: 100%;
     font-size: 18px;
-    line-height: 1.25;
+    line-height: 1.6;
+    border-radius: 20px;
 }
 
 .map {
     text-align: center;
+    border-radius: 20px;
 }
 
 .hours-loc {
@@ -112,22 +129,93 @@ nav.white {
     margin-bottom: 200px;
 }
 
+.button-wrapper {
+    text-align: center;
+}
+
+.btn-large {
+    color: black !important;
+    border-radius: 50px !important;
+}
+
+.change-c {
+    text-shadow: 2px 2px 4px #000000 !important;
+    color: #f0edea ;
+}
+
+.change-s {
+    text-shadow: 2px 2px 4px #000000 !important;
+    color: #f0edea ;
+}
+
 .foot {
-    background-color:#a5d6a7;
-    color: white;
+    background-color:#e8f5e9;
+    color: black;
     text-align: center;
     padding: 15px;
     font-size: 18px;
     margin-top: 100px;
 }
 
-.sidenav-trigger {
-    color: white;
+.mySlides {
+    display:none;
 }
 
-.sidenav-list {
-    margin-top: 100px;
-}
+.chat_block {
+    display: block;
+    padding-top: 10px;
+  }
+  
+  .chat_block .chat_icon {
+      float: left;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  }
+  
+  .chat_block comment {
+    display: block;
+    padding-top: 10px;
+  }
+  
+  .chat_bubble {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 0 0;
+    color: #000;
+    background: #e8f5e9;
+    border-radius: 20px;
+    background: linear-gradient(top, #f9d835, #f3961c);
+    height: 15vh;
+    width: 95%;
+    font-size: 18px;
+  }
+  
+  .chat_bubble.left {
+    margin-left:70px;
+    background:#e8f5e9;
+  }
+  
+  .chat_bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50px;
+    width: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #e8f5e9 transparent;
+  }
+  
+  .chat_bubble.left:after {
+    top:50px;
+    left:-20px;
+    bottom:auto;
+    border-width:10px 20px 10px 0;
+    border-color:transparent #e8f5e9;
+  }
 
 /* self serve page */
 #hours-prices {
