@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- Favicon link -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Link to It's Tuesday CSS animation library -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css" />
     <!-- Link to Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
@@ -87,23 +89,29 @@
         </div>
       </div>
 
-      <div class="parallax z-depth-1" style="height: 700px">
+      <div class="parallax z-depth-0" style="height: 700px">
         <img src="assets/images/hero.jpg" />
       </div>
     </div>
 
+    <div class="bg-color z-depth-1">
     <div class="container">
-      <div class="row">
-        <div class="col l2 m2 s2">
+    <!-- Slideshow Reviews -->
+    <div class="row center-align" id="slides">
+  
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
           <div class="center-align">
-            <img src="assets/images/google.png" style="width: 50px" />
+            <img src="assets/images/google.png" style="width: 30px" />
             <br />
-            <p>First Last</p>
-            <img src="assets/images/stars.png" style="width: 50px" />
-            <p>Google Review</p>
+            <p style="font-size: 16px; font-weight: 800;">Choua Yang</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
           </div>
         </div>
-        <div class="col l10 m10 s10">
+        <div class="col l8 m8 s8 nopad">
           <div class="chat_block">
             <div class="chat_bubble left z-depth-1 valign-wrapper">
               <comment>
@@ -116,146 +124,311 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Slideshow Reviews -->
-      <div class="row center-align">
-        <h2>HTML slides</h2>
-        <div>
-          <div class="mySlides">
-            <p><span>New!</span></p>
-            <p>6 Crystal Glasses</p>
-            <p>Only $99 !!!</p>
-          </div>
-
-          <img class="mySlides center-align" src="assets/images/google.png" style="width: 100px"/>
-
-          <div class="mySlides">
-            <p><span>old</span></p>
-            <p>6 Crystal Glasses</p>
-            <p>Only $99 !!!</p>
-          </div>
-
-          <img class="mySlides center-align" src="assets/images/stars.png" style="width: 100px"/>
-
-          <div class="mySlides">
-            <p><span>New!</span></p>
-            <p>6 Crystal Glasses</p>
-            <p>Only $99 !!!</p>
-          </div>
-
-          <div class="mySlides">
-            <p><span>old</span></p>
-            <p>6 Crystal Glasses</p>
-            <p>Only $99 !!!</p>
-          </div>
+        <div class="col l1 m1 s1">
         </div>
       </div>
 
-      <!--Home Page-->
-      <!-- <div class="row"> -->
-      <!--Parallax effect one-->
-      <!-- <div class="parallax-container z-depth-3" style="height: 600px">
-                <div class="parallax"><img src="assets/images/hero.jpg"></div>
-            </div> -->
-      <!-- </div> -->
-
-      <!-- <div class="row" id="tagline"> -->
-      <!-- <h5>Family-owned business that offers their customers the lowest prices in the area, every day of the week!
-            </h5> -->
-      <!-- <br> -->
-      <!--Spanish-->
-      <!-- <p>Todo lavado lavandería.
-                ¡Empresa familiar que ofrece a sus clientes los precios más bajos de la zona, todos los días de la
-                semana!</p>
-            <br> -->
-      <!--Hmong-->
-      <!-- <p>Txhua Daim Ntawv Qhia Txog Khaub Ncaws Khaub Ncaws. Tsev neeg muaj kev lag luam uas muab lawv cov neeg
-                siv
-                cov nqi qis tshaj hauv thaj chaw, txhua hnub ntawm lub lim tiam!</p>
-            <br> -->
-      <!--Vietnamese-->
-      <!-- <p>Tất cả được giặt lên Laundromat. Doanh nghiệp thuộc sở hữu gia đình cung cấp cho khách hàng của họ giá
-                thấp
-                nhất trong khu vực, mỗi ngày trong tuần!</p> -->
-      <!-- </div> -->
-
-      <!--Services Page-->
-      <div class="row">
-        <p class="title">Services</p>
-      </div>
-
-      <div class="row service-icons">
-        <div class="col l4 m12 s12">
-          <div class="icon-block">
-            <a href="selfserve.html"><i class="large material-icons icon-link">monetization_on</i></a>
-            <a href="selfserve.html">
-              <p class="subtitle icon-link">Self-Service Laundry</p>
-            </a>
-            <p class="info-text">
-              Self-service, card reader and coin operated laundry open seven
-              days a week. Coin change machine, instant refund machine, and
-              large capacity washers and dryers available.
-            </p>
-          </div>
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
         </div>
-        <div class="col l4 m12 s12">
-          <div class="icon-block">
-            <a href="washfold.html"><i class="large material-icons icon-link">bubble_chart</i></a>
-            <a href="washfold.html">
-              <p class="subtitle icon-link">Wash and Fold</p>
-            </a>
-            <p class="info-text">
-              Let us do your laundry for you. It only takes minutes to drop off
-              and pick up your laundry, after we have washed, dried, and folded
-              it for you.
-            </p>
-          </div>
-        </div>
-        <div class="col l4 m12 s12">
-          <div class="icon-block">
-            <a href="comfort.html"><i class="large material-icons icon-link">wifi</i></a>
-            <a href="comfort.html">
-              <p class="subtitle icon-link">Safe and Convenient</p>
-            </a>
-            <p class="info-text">
-              Machines fully viewable from parking lot. Free WiFi available.
-              Convenient location. Cleaned with disinfectant daily.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!--Hours and Location Page-->
-      <div class="row">
-        <p class="title">Hours and Location</p>
-      </div>
-
-      <div class="row hours-loc">
-        <div class="col l5 m12 s12">
-          <div class="hours z-depth-1">
-            <p class="subtitle">Hours</p>
-            <p>6:00 AM - 10:00 PM Daily</p>
-            <p>Laundromat opens at 6:00 AM</p>
-            <p>Last wash in at 9:00 PM</p>
-            <p>Doors lock at 10:00 PM</p>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
             <br />
-            <p class="subtitle">Contact</p>
-            <p>651-788-6393</p>
-            <a href="mailto:info@allwashedupmaplewood.com">
-              info@allwashedupmaplewood.com
-            </a>
+            <p style="font-size: 16px; font-weight: 800;">El Kike</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
           </div>
         </div>
-        <div class="col l7 m12 s12">
-          <div class="map z-depth-1">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2550272793724!2d-93.04730218455704!3d44.999442779098196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d45ee3ea6737%3A0xc5881c4a4d9aa97e!2sAll%20Washed%20Up%20Laundromat!5e0!3m2!1sen!2sus!4v1590505792032!5m2!1sen!2sus"
-              width="100%" height="442" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
-            </iframe>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Very nice place and the owner soooo lovely !!! Great customer service 👍👌👌👌
+              </comment>
+            </div>
           </div>
+        </div>
+        <div class="col l1 m1 s1">
         </div>
       </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">John Rivera</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Love the place it's very clean and well maintained.
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Roberta Tuthill-Meissner</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                The prices here are very reasonable. Machines work well and accept change as well which is great. This is my go to place, especially when we have multiple loads or larger loads to do because there's always machines open and a folding table nearby which makes it easy to do lots of loads at once. Highly recommend this place!
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Marie Linn</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Clean, quiet, reasonabley priced and convenient location.
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Moog</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Love this place! Brand new washers and dryers, very clean and inexpensive! Owner was very kind and helpful 😊
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Rick Rolli</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Clean, organized & secure place to do laundry.
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Mark Lavoie</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                A great laundromat that is reasonably priced. The owner is super responsive if a machine breaks down and is always there to provide quarters. They just upgraded many of the machines to be accepting of cards, and theres a nice shady place out back to hide and read while waiting on laundry.
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+      <div class="row mySlides animated tdSwingIn">
+        <div class="col l1 m1 s1">
+        </div>
+        <div class="col l2 m2 s2 nomar">
+          <div class="center-align">
+            <img src="assets/images/google.png" style="width: 30px" />
+            <br />
+            <p style="font-size: 16px; font-weight: 800;">Jason Tuthill</p>
+            <img src="assets/images/stars.png" style="width: 70px" />
+            <p style="font-size: 14px; color: #285183; font-weight: 800;">Google Review</p>
+          </div>
+        </div>
+        <div class="col l8 m8 s8 nopad">
+          <div class="chat_block">
+            <div class="chat_bubble left z-depth-1 valign-wrapper">
+              <comment>
+                Great, easy access, location on corner. Management is on top of it.
+              </comment>
+            </div>
+          </div>
+        </div>
+        <div class="col l1 m1 s1">
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+   
+    <div class="container">
+        <!--Services Page-->
+        <div class="row">
+          <p class="title">Self Service Laundry</p>
+          <h4 style="text-align: center;">
+            Family-Owned and Operated Laundromat<br />
+            lowest prices in the area, every day of the week!
+          </h4>
+        </div>
+  
+        <div class="row service-icons">
+          <div class="col l4 m12 s12">
+            <div class="icon-block">
+              <a href="selfserve.html"><i class="large material-icons icon-link">monetization_on</i></a>
+              <a href="selfserve.html">
+                <p class="subtitle icon-link">Self-Service Laundry</p>
+              </a>
+              <p class="info-text">
+                Self-service, card reader and coin operated laundry open seven
+                days a week. Coin change machine, instant refund machine, and
+                large capacity washers and dryers available.
+              </p>
+            </div>
+          </div>
+          <div class="col l4 m12 s12">
+            <div class="icon-block">
+              <a href="washfold.html"><i class="large material-icons icon-link">bubble_chart</i></a>
+              <a href="washfold.html">
+                <p class="subtitle icon-link">Wash and Fold</p>
+              </a>
+              <p class="info-text">
+                Let us do your laundry for you. It only takes minutes to drop off
+                and pick up your laundry, after we have washed, dried, and folded
+                it for you.
+              </p>
+            </div>
+          </div>
+          <div class="col l4 m12 s12">
+            <div class="icon-block">
+              <a href="comfort.html"><i class="large material-icons icon-link">wifi</i></a>
+              <a href="comfort.html">
+                <p class="subtitle icon-link">Safe and Convenient</p>
+              </a>
+              <p class="info-text">
+                Machines fully viewable from parking lot. Free WiFi available.
+                Convenient location. Cleaned with disinfectant daily.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+ <!--Hours and Location Page-->
+      <div class="parallax-container center valign-wrapper z-depth-0" style="height: 500px">
+        <div class="container">
+          <div class="row hours-loc">
+                <div class="row">
+                  <div class="col s12 m7">
+                    <div class="hours z-depth-4">
+                      <div class="col l7 m7">
+                        <h5>All Washed Up Laundromat</h5>
+                        <p>1313 Frost Avenue</p>
+                        <p>Maplewood, MN 55109</p>
+                        <br><br>
+                        <div class="button-wrapper">
+                          <a class="waves-effect waves-light btn green lighten-4 center-align z-depth-1" href="hours.html" class="w3-button w3-black">FIND US</a>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="col l5 m5">
+                      <h5>Hours</h5>
+                      <p>6:00 AM - 10:00 PM Daily</p>
+                      <p>Opens at 6:00 AM</p>
+                      <p>Last wash in at 9:00 PM</p>
+                      <p>Doors lock at 10:00 PM</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="parallax z-depth-0" style="height: 700px">
+          <img src="assets/images/bubbles.jpg" />
+        </div>
+      </div>
+
+      <div class="bg-color z-depth-1 valign-wrapper" style="height:75px;">
+        <div class="container center-align">
+        <p><i class="material-icons">phone_in_talk</i> Give Us a Ring 651-788-6393&nbsp;&nbsp;&nbsp; <i class="material-icons">email</i>  Send Us a Message <a href="mailto:info@allwashedupmaplewood.com">
+          info@allwashedupmaplewood.com
+        </a></p>
+        </div>
+      </div>
+
+
+      <div class="container">
 
       <div class="row">
         <!--About Us Page-->
@@ -264,7 +437,7 @@
         </div>
 
         <!--Parallax effect two-->
-        <div class="parallax-container z-depth-1" style="border-radius: 20px">
+        <div class="parallax-container z-depth-0" style="border-radius: 20px">
           <div class="parallax"><img src="assets/images/home-about.jpg" /></div>
         </div>
 
@@ -280,34 +453,37 @@
           <div class="button-wrapper">
             <a class="waves-effect waves-light btn-large green lighten-4 center-align z-depth-1" href="about.html" class="w3-button w3-black">LEARN MORE</a>
           </div>
-
-          <!-- <br> -->
-
-          <!-- Abreviated text for different language versions. -->
-          <!--We give our customers a safe and affordable option to meet their laundry needs. We offer a clean and quiet environment with low prices. We love and appreciate our customers and respond to their needs as quickly as we can. -->
-
-          <!--Spanish-->
-          <!-- <p class="subtitle">Damos la bienvenida a nuestros clientes de habla hispana.</p>
-            <p class="info-text">Brindamos a nuestros clientes una opción segura y asequible para satisfacer sus necesidades de lavandería. Ofrecemos un ambiente limpio y tranquilo con precios bajos. Amamos y apreciamos a nuestros clientes y respondemos a sus necesidades lo más rápido posible.</p>
-            <br> -->
-          <!--Hmong-->
-          <!-- <p class="subtitle">Zoo siab txais tos peb cov neeg siv khoom hais lus Mev.</p>
-            <p class="info-text">
-            Peb muab peb cov neeg siv khoom muaj kev nyab xeeb thiab pheej yig kom tau raws li lawv cov khaub ncaws ntxhua. Peb muab kev huv thiab ntsiag to ib puag ncig nrog tus nqi tsawg. Peb hlub thiab txaus siab rau peb cov neeg siv khoom thiab teb rau lawv cov kev xav tau sai li sai tau.</p>
-            <br> -->
-          <!--Vietnamese-->
-          <!-- <p class="subtitle">Chúng tôi hoan nghênh khách hàng nói tiếng Tây Ban Nha của chúng tôi.</p>
-            <p class="info-text">
-            Chúng tôi cung cấp cho khách hàng của chúng tôi một lựa chọn an toàn và giá cả phải chăng để đáp ứng nhu cầu giặt ủi của họ. Chúng tôi cung cấp một môi trường sạch sẽ và yên tĩnh với giá thấp. Chúng tôi yêu thích và đánh giá cao khách hàng của chúng tôi và đáp ứng nhu cầu của họ nhanh nhất có thể.</p> -->
         </div>
       </div>
+    </div>
+<div class="container">
+    <div class="row">
+      <p class="title">Our Location</p>
+    </div>
+
+    <div class="col l7 m12 s12">
+      <div class="map z-depth-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2550272793724!2d-93.04730218455704!3d44.999442779098196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d45ee3ea6737%3A0xc5881c4a4d9aa97e!2sAll%20Washed%20Up%20Laundromat!5e0!3m2!1sen!2sus!4v1590505792032!5m2!1sen!2sus"
+          width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+      </div>
+    </div>
     </div>
 
     <!--Footer Content-->
 
-    <footer class="foot z-depth-1">
+    <div class="bg-color z-depth-2 center-align" style="height:250px;">
+      <div class="footer">
+      <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo center"><img src="assets/images/logo.png" style="width: 300px"/>
+      </a>
+      </div>
+    </div>
+    <div class="bg-foot z-depth-2 center-align" style="height:90px;">
+      <div>
       Copyright &copy; 2020 All Washed Up Laundromat - All Rights Reserved
-    </footer>
+      </div>
+    </div>
 
     <!--Javascript file-->
     <script src="assets/javascript/logic.js"></script>

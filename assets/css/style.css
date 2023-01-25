@@ -107,18 +107,25 @@ nav.white {
 
 .hours {
     text-align: center;
-    background-color: #e8f5e9 ;
+    background-color: white;
     padding-top: 20px;
-    height: 450px;
+    height: 250px;
     width: 100%;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.4;
     border-radius: 20px;
 }
 
-.map {
+.bg-color {
+    
+    /* background-image: linear-gradient(#c8e6c9, #e8f5e9); */
+    background-color: #e8f5e9 ;
+    overflow-y: auto;
+}
+
+.map { 
     text-align: center;
-    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .hours-loc {
@@ -133,9 +140,9 @@ nav.white {
     text-align: center;
 }
 
-.btn-large {
+.btn-large, .btn {
     color: black !important;
-    border-radius: 50px !important;
+    border-radius: 30px !important;
 }
 
 .change-c {
@@ -146,15 +153,6 @@ nav.white {
 .change-s {
     text-shadow: 2px 2px 4px #000000 !important;
     color: #f0edea ;
-}
-
-.foot {
-    background-color:#e8f5e9;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    font-size: 18px;
-    margin-top: 100px;
 }
 
 .mySlides {
@@ -185,7 +183,7 @@ nav.white {
     padding-right: 20px;
     margin: 0 0 0;
     color: #000;
-    background: #e8f5e9;
+    background: white;
     border-radius: 20px;
     background: linear-gradient(top, #f9d835, #f3961c);
     height: 15vh;
@@ -195,7 +193,7 @@ nav.white {
   
   .chat_bubble.left {
     margin-left:70px;
-    background:#e8f5e9;
+    background:white;
   }
   
   .chat_bubble:after {
@@ -206,7 +204,7 @@ nav.white {
     width: 0;
     border-width: 15px 15px 0;
     border-style: solid;
-    border-color: #e8f5e9 transparent;
+    border-color: white transparent;
   }
   
   .chat_bubble.left:after {
@@ -214,7 +212,35 @@ nav.white {
     left:-20px;
     bottom:auto;
     border-width:10px 20px 10px 0;
-    border-color:transparent #e8f5e9;
+    border-color:transparent white;
+  }
+
+  .review-side {
+    text-align: right;
+  }
+
+  .nopad, .nomar {
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+    padding-left: -30px !important;
+    padding-right: -30px !important;
+  } 
+
+  .nomar {
+    padding-top: 20px !important;
+  }
+
+  #slides {
+    margin-top: 50px;
+  }
+
+  .footer {
+    padding-top: 6%;
+  }
+
+  .bg-foot {
+    padding-top: 2%;
+    background-color: #c8e6c9;
   }
 
 /* self serve page */
