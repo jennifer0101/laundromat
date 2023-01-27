@@ -20,7 +20,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <!-- Google Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=PT+Sans&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -36,7 +38,7 @@
       <nav class="white hide-on-med-and-down m12 l12">
         <div class="nav-wrapper z-depth-0">
           <!-- <div class="container"> -->
-          <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo left"><img src="assets/images/logo.png" style="width: 300px"/>
+          <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo left"><img src="assets/images/logo.png" style="width: 50%;"/>
           </a>
           <ul id="nav-mobile" class="right hide-on-small-only m12 l12">
             <li><a href="card.html">Loyalty Cards</a></li>
@@ -336,10 +338,6 @@
         <!--Services Page-->
         <div class="row">
           <p class="title">Self Service Laundry</p>
-          <h4 style="text-align: center;">
-            Family-Owned and Operated Laundromat<br />
-            lowest prices in the area, every day of the week!
-          </h4>
         </div>
   
         <div class="row service-icons">
@@ -386,7 +384,7 @@
       </div>
 
  <!--Hours and Location Page-->
-      <div class="parallax-container center valign-wrapper z-depth-0" style="height: 500px">
+      <div class="parallax-container center valign-wrapper z-depth-0" style="height: 350px">
         <div class="container">
           <div class="row hours-loc">
                 <div class="row">
@@ -396,10 +394,8 @@
                         <h5>All Washed Up Laundromat</h5>
                         <p>1313 Frost Avenue</p>
                         <p>Maplewood, MN 55109</p>
-                        <br><br>
-                        <div class="button-wrapper">
-                          <a class="waves-effect waves-light btn green lighten-4 center-align z-depth-1" href="hours.html" class="w3-button w3-black">FIND US</a>
-                        </div>
+                      <br>
+                          <i class="material-icons medium">place</i>
                         <br><br>
                     </div>
                     <div class="col l5 m5">
@@ -414,33 +410,46 @@
                 </div>
           </div>
         </div>
-        <div class="parallax z-depth-0" style="height: 700px">
+        <div class="parallax z-depth-0" style="height: 350px">
           <img src="assets/images/bubbles.jpg" />
         </div>
       </div>
 
       <div class="bg-color z-depth-1 valign-wrapper" style="height:75px;">
-        <div class="container center-align">
-        <p><i class="material-icons">phone_in_talk</i> Give Us a Ring 651-788-6393&nbsp;&nbsp;&nbsp; <i class="material-icons">email</i>  Send Us a Message <a href="mailto:info@allwashedupmaplewood.com">
-          info@allwashedupmaplewood.com
-        </a></p>
+        <div class="container">
+        <p><i class="material-icons">phone_in_talk</i> Give Us a Ring	
+          <a href="tel:651-788-6393">651-788-6393</a> 
+          &nbsp;&nbsp;&nbsp; 
+          <i class="material-icons">email</i>  Send Us a Message 
+          <a href="mailto:info@allwashedupmaplewood.com"> info@allwashedupmaplewood.com</a>
+        </p>
         </div>
       </div>
+
+      <div class="container">
+        <div class="row">
+          <p class="title">Our Location</p>
+        </div>
+    
+        <div class="col l7 m12 s12">
+          <div class="map z-depth-1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2550272793724!2d-93.04730218455704!3d44.999442779098196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d45ee3ea6737%3A0xc5881c4a4d9aa97e!2sAll%20Washed%20Up%20Laundromat!5e0!3m2!1sen!2sus!4v1590505792032!5m2!1sen!2sus"
+              width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+          </div>
+        </div>
+        </div>
 
 
       <div class="container">
 
       <div class="row">
         <!--About Us Page-->
+        <div class="col l7 m7 s12">
         <div class="row">
           <p class="title">About Us</p>
         </div>
-
-        <!--Parallax effect two-->
-        <div class="parallax-container z-depth-0" style="border-radius: 20px">
-          <div class="parallax"><img src="assets/images/home-about.jpg" /></div>
-        </div>
-
         <div class="row about-info">
           <p class="info-text">
             We are a family-owned business committed to giving our customers a
@@ -454,32 +463,28 @@
             <a class="waves-effect waves-light btn-large green lighten-4 center-align z-depth-1" href="about.html" class="w3-button w3-black">LEARN MORE</a>
           </div>
         </div>
+        </div>
+        <div class="col l5 m5 s12">
+        <!--Parallax effect two-->
+        <div class="parallax-container z-depth-0" id="circle-pic">
+          <div class="parallax"><img src="assets/images/home-about.jpg" /></div>
+        </div>
+     
+        </div>
+        
       </div>
-    </div>
-<div class="container">
-    <div class="row">
-      <p class="title">Our Location</p>
     </div>
 
-    <div class="col l7 m12 s12">
-      <div class="map z-depth-1">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2550272793724!2d-93.04730218455704!3d44.999442779098196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d45ee3ea6737%3A0xc5881c4a4d9aa97e!2sAll%20Washed%20Up%20Laundromat!5e0!3m2!1sen!2sus!4v1590505792032!5m2!1sen!2sus"
-          width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
-        </iframe>
-      </div>
-    </div>
-    </div>
 
     <!--Footer Content-->
 
-    <div class="bg-color z-depth-2 center-align" style="height:250px;">
-      <div class="footer">
-      <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo center"><img src="assets/images/logo.png" style="width: 300px"/>
+    <div class="bg-color z-depth-2" style="height:300px;">
+      <div class="center-align logo-foot">
+      <a href="index.html" style="font-family: 'Nunito', sans-serif" class="brand-logo center"><img src="assets/images/logo-footer.png" style="width:20vw;"/>
       </a>
       </div>
     </div>
-    <div class="bg-foot z-depth-2 center-align" style="height:90px;">
+    <div class="bg-foot z-depth-2 center-align">
       <div>
       Copyright &copy; 2020 All Washed Up Laundromat - All Rights Reserved
       </div>

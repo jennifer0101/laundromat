@@ -1,494 +1,506 @@
- /* font-family: 'Nunito', sans-serif;
-font-family: 'PT Sans', sans-serif; */
+/* font-family: 'Calistoga', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
 
 body {
-    font-family: 'PT Sans', sans-serif; 
-    font-size: 20px;
-    line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333333;
 }
 
-h1, h2, h3 {
-    font-family: 'Nunito', sans-serif;
+/* TYPOGRAPHY */
+h1,
+h2,
+h3 {
+  font-family: "Calistoga", cursive;
+  font-weight: 800;
 }
 
-h4, h5, h6 {
-    font-family: 'PT Sans', sans-serif;
-}
-
-nav ul a {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-}
-
-nav ul li a {
-    color: #333333;
-    font-size: 1.1em;
-}
-
-#nav-mobile {
-    margin-top: 51px;
-}
-
-nav.white {
-    height: 175px !important;
-}
-
-.brand-logo {
-    padding-top: 50px !important;
-    padding-left: 25px !important;
-}
-
-.dropdown-content li > a, .dropdown-content li > span {
-    color: #333333 !important;
-    font-family: 'Nunito', sans-serif;
-    margin-top: 0px;
-    font-size: 1em !important;
-    font-weight: 800;
-}
-
-.sidenav-trigger {
-    color: #333333;
-    margin-top: 85px !important;
-}
-
-.sidenav-list {
-    margin-top: 100px;
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .title {
-    font-family: 'Nunito', sans-serif;
-    font-size: 50px;
-    font-weight: 800;
-    text-align: center;
-    margin: 100px 0px 0px 0px;  
-    color: #333333;
+  font-family: "Calistoga", cursive;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  color: #434343;
 }
 
 .subtitle {
-    font-family: 'Nunito', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    color:#333333;
-}
-
-.large {
-    color:#7db3f3;
-}
-
-.service-icons {
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 60px;
-    margin-bottom: 200px;
-}
-
-.icon-block {
-    padding: 0 25px;
-}
-
-.icon-link:hover {
-    color:#4879b6;
-}
-
-.info-text {
-    text-align: left;
-    color:#333333;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.card {
-    text-align: center !important;
-    background-color: #e8f5e9 !important;
-    border-radius: 20px !important;
-}
-
-.hours {
-    text-align: center;
-    background-color: white;
-    padding-top: 20px;
-    height: 250px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 1.4;
-    border-radius: 20px;
-}
-
-.bg-color {
-    
-    /* background-image: linear-gradient(#c8e6c9, #e8f5e9); */
-    background-color: #e8f5e9 ;
-    overflow-y: auto;
-}
-
-.map { 
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.hours-loc {
-    margin-top: 60px;
-}
- 
-.about-info {
-    margin-bottom: 200px;
-}
-
-.button-wrapper {
-    text-align: center;
-}
-
-.btn-large, .btn {
-    color: black !important;
-    border-radius: 30px !important;
+  font-family: "Calistoga", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #434343;
 }
 
 .change-c {
-    text-shadow: 2px 2px 4px #000000 !important;
-    color: #f0edea ;
+  text-shadow: 2px 2px 4px #000000 !important;
+  color: white;
 }
 
 .change-s {
-    text-shadow: 2px 2px 4px #000000 !important;
-    color: #f0edea ;
+  text-shadow: 2px 2px 4px #000000 !important;
+  color: white;
 }
 
+/* NAVIGATION BAR, SIDE NAV */
+nav ul a {
+  font-family: "Calistoga", cursive;
+  font-weight: 800;
+}
+
+nav ul li a {
+  color: #434343;
+  font-size: 1.1em;
+}
+
+#nav-mobile {
+  margin-top: 51px;
+}
+
+nav.white {
+  height: 175px !important;
+}
+
+.brand-logo {
+  padding-top: 50px !important;
+  padding-left: 15px !important;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: #434343 !important;
+  font-family: "Calistoga", cursive;
+  margin-top: 0px;
+  font-size: 1em !important;
+  font-weight: 800;
+}
+
+.sidenav-trigger {
+  color: #434343;
+  margin-top: 85px !important;
+}
+
+.sidenav-list {
+  margin-top: 100px;
+}
+
+/* ICONS */
+.large {
+  color: #7db3f3;
+}
+
+.service-icons {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.icon-block {
+  padding: 0 25px;
+}
+
+.icon-link:hover {
+  color: #4879b6;
+}
+
+/* TEXT BLOCKS AND CARDS */
+.info-text {
+  text-align: left;
+  padding: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  text-align: center !important;
+  background-color: #e8f5e9 !important;
+  border-radius: 20px !important;
+}
+
+.hours {
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  height: 250px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.4;
+  border-radius: 20px;
+}
+
+.hours-loc {
+  margin-top: 60px;
+}
+
+.about-info {
+  margin-bottom: 200px;
+}
+
+/* BACKGROUND COLORS AND IMAGES */
+.bg-color {
+  background-color: #e8f5e9;
+  overflow-y: auto;
+}
+
+.map {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#circle-pic {
+    border-radius: 20px; 
+    height: 40vh; 
+    margin-top:14vh;
+}
+
+/* BUTTONS */
+.button-wrapper {
+  text-align: center;
+}
+
+.btn-large,
+.btn {
+  color: #333333 !important;
+  border-radius: 30px !important;
+}
+
+/* SLIDES CUSTOMER REVIEWS */
 .mySlides {
-    display:none;
+  display: none;
 }
 
+.review-side {
+  text-align: right;
+}
+
+.nopad,
+.nomar {
+  margin-left: -30px !important;
+  margin-right: -30px !important;
+  padding-left: -30px !important;
+  padding-right: -30px !important;
+}
+
+.nomar {
+  padding-top: 20px !important;
+}
+
+#slides {
+  margin-top: 50px;
+}
+
+/* CHAT BUBBLE */
 .chat_block {
-    display: block;
-    padding-top: 10px;
-  }
-  
-  .chat_block .chat_icon {
-      float: left;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-  }
-  
-  .chat_block comment {
-    display: block;
-    padding-top: 10px;
-  }
-  
-  .chat_bubble {
-    display: block;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 0 0;
-    color: #000;
-    background: white;
-    border-radius: 20px;
-    background: linear-gradient(top, #f9d835, #f3961c);
-    height: 15vh;
-    width: 95%;
-    font-size: 18px;
-  }
-  
-  .chat_bubble.left {
-    margin-left:70px;
-    background:white;
-  }
-  
-  .chat_bubble:after {
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 50px;
-    width: 0;
-    border-width: 15px 15px 0;
-    border-style: solid;
-    border-color: white transparent;
-  }
-  
-  .chat_bubble.left:after {
-    top:50px;
-    left:-20px;
-    bottom:auto;
-    border-width:10px 20px 10px 0;
-    border-color:transparent white;
-  }
+  display: block;
+  padding-top: 10px;
+}
 
-  .review-side {
-    text-align: right;
-  }
+.chat_block .chat_icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
-  .nopad, .nomar {
-    margin-left: -30px !important;
-    margin-right: -30px !important;
-    padding-left: -30px !important;
-    padding-right: -30px !important;
-  } 
+.chat_block comment {
+  display: block;
+  padding-top: 10px;
+}
 
-  .nomar {
-    padding-top: 20px !important;
-  }
+.chat_bubble {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 0 0;
+  color: #333333;
+  background: white;
+  border-radius: 20px;
+  background: linear-gradient(top, #f9d835, #f3961c);
+  height: 15vh;
+  width: 95%;
+  font-size: 18px;
+}
 
-  #slides {
-    margin-top: 50px;
-  }
+.chat_bubble.left {
+  margin-left: 70px;
+  background: white;
+}
 
-  .footer {
-    padding-top: 6%;
-  }
+.chat_bubble:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: white transparent;
+}
 
-  .bg-foot {
-    padding-top: 2%;
-    background-color: #c8e6c9;
-  }
+.chat_bubble.left:after {
+  top: 50px;
+  left: -20px;
+  bottom: auto;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent white;
+}
+
+/* FOOTER */
+.footer {
+  padding-top: 6%;
+}
+
+.bg-foot {
+  padding-top: 2%;
+  background-color: #c8e6c9;
+}
+
+.logo-foot {
+  padding-top: 4%;
+}
+
+
+/* PAGES */
+
 
 /* self serve page */
 #hours-prices {
-    text-align: center;
-    font-size: 25px;
-    padding: 0px 0px 40px 0px;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px 0px 40px 0px;
 }
 
 #coin-icon {
-    text-align: center;
+  text-align: center;
 }
 
 #selfserve-text {
-   padding-top: 50px;
+  padding-top: 50px;
 }
 
 /* wash and fold page */
 #fold-intro {
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 #bubbles-icon {
-    text-align: center;
+  text-align: center;
 }
 
 #folded-clothes {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 20px;
 }
 
 #fold-rates {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 #rates-white {
-    color: white;
+  color: white;
 }
 
 #fold-hours {
-   display: inline-block;
-   text-align: left;
-   padding-top: 5%;
+  display: inline-block;
+  text-align: left;
+  padding-top: 5%;
 }
 
 #center-fold {
-    text-align: center;
+  text-align: center;
 }
 
 .fold-container {
-    background-color: #a5d6a7;
-    padding: 10px 20px;
-    height: 500px;
+  background-color: #a5d6a7;
+  padding: 10px 20px;
+  height: 500px;
 }
 
 .rates-container {
-    background-color: #386144;
-    padding: 10px 20px;
-    height: 500px;
+  background-color: #386144;
+  padding: 10px 20px;
+  height: 500px;
 }
 
 #clock {
-    color: #304336;
-    text-align: center;
-    padding: 10px 0px 30px 0px;
+  color: #304336;
+  text-align: center;
+  padding: 10px 0px 30px 0px;
 }
 
 /* hours page */
 #hours-text {
-    padding-top: 10px;
-    margin-bottom: 300px;
+  padding-top: 10px;
+  margin-bottom: 300px;
 }
 
 /* safe and convenient page */
 #comfort-icon {
-    text-align: center;
-    padding-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 /* about page */
 #family {
-    float: left;
-    margin: 0px 25px 10px 0px;
-    width: 50%;
+  float: left;
+  margin: 0px 25px 10px 0px;
+  width: 50%;
 }
 
 #fam-wrap {
-    clear: both;
+  clear: both;
 }
 
 #sf-sweep {
-    float: right;
-    margin: 0px 0px 50px 25px;
-    width: 35%;
+  float: right;
+  margin: 0px 0px 50px 25px;
+  width: 35%;
 }
 
 #sf-collage {
-    width: 100%;
-    margin: 25px 0px 50px 0px;
+  width: 100%;
+  margin: 25px 0px 50px 0px;
 }
 
 #steve-wrap {
-    clear: both;
+  clear: both;
 }
 
-/* card page */
+/* loyalty card page */
 #card-icon {
-    text-align: center;
-}
-
-/* pages */
-.pages-parallax {
-    height: 500px;
-    margin-bottom: 0px;
-}
-
-.pages-title {
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.pages-sub {
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+  text-align: center;
 }
 
 /* Media queries */
 
 @media only screen and (max-width: 1278px) {
-    .brand-logo {
-        font-size: 25px !important;
-    }
+  .brand-logo {
+    font-size: 25px !important;
+  }
 }
 
 @media only screen and (max-width: 1156px) {
-    .brand-logo {
-        font-size: 20px !important;
-    }
+  .brand-logo {
+    font-size: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .hours {
-        font-size: 16px;
-    }
+  .hours {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 1064px) {
-    .brand-logo {
-        font-size: 16px !important;
-    }
+  .brand-logo {
+    font-size: 16px !important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    .hours {
-        font-size: 18px;
-        margin-bottom: 25px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .hours {
+    font-size: 18px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    #hours-text {
-        margin-bottom: 25px;
-    }
-    
-    .map {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  #hours-text {
+    margin-bottom: 25px;
+  }
 
-    .icon-block {
-        margin-bottom: 50px;
-    }
+  .map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    #selfserve-text {
-        padding-top: 20px;
-    }
+  .icon-block {
+    margin-bottom: 50px;
+  }
 
-    .fold-container {
-        margin-bottom: 25px;
-    }
+  #selfserve-text {
+    padding-top: 20px;
+  }
 
-    #folded-clothes {
-        width: 300px;
-        margin-top: 15px;
-    }
+  .fold-container {
+    margin-bottom: 25px;
+  }
 
-    #family {
-        clear: both;
-        width: 100%;
-    }
+  #folded-clothes {
+    width: 300px;
+    margin-top: 15px;
+  }
 
-    #sf-sweep {
-        clear: both;
-        width: 100%;
-        margin: 15px 0px 15px 25px;
-    }
+  #family {
+    clear: both;
+    width: 100%;
+  }
 
-    .title {
-        font-size: 45px;
-    }
+  #sf-sweep {
+    clear: both;
+    width: 100%;
+    margin: 15px 0px 15px 25px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 628px) {
-    .brand-logo {
-        font-size: 20px !important;
-    }
+  .brand-logo {
+    font-size: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 503px) {
-    .brand-logo {
-        font-size: 16px !important;
-    }
+  .brand-logo {
+    font-size: 16px !important;
+  }
 
-    .title {
-        font-size: 40px;
-    }
+  .title {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 422px) {
-    .fold-container {
-        height: 550px;
-    }
+  .fold-container {
+    height: 550px;
+  }
 }
 
 @media only screen and (max-width: 402px) {
-    .brand-logo {
-        font-size: 12px !important;
-    }
+  .brand-logo {
+    font-size: 12px !important;
+  }
 }
 
 @media only screen and (max-width: 399px) {
-    #folded-clothes {
-        width: 200px;
-    }
+  #folded-clothes {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 301px) {
-    .brand-logo {
-        font-size: 10px !important;
-    }
+  .brand-logo {
+    font-size: 10px !important;
+  }
 }
-
