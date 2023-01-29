@@ -112,6 +112,12 @@ nav.white {
   color: #4879b6;
 }
 
+#map-spot {
+  text-align: center;
+ padding-top: 50%;
+ padding-left: 50%;
+}
+
 /* TEXT BLOCKS AND CARDS */
 .info-text {
   text-align: left;
@@ -128,7 +134,7 @@ nav.white {
 
 .hours {
   text-align: center;
-  background-color: white;
+  background-color: white !important;
   padding-top: 20px;
   height: 250px;
   width: 100%;
